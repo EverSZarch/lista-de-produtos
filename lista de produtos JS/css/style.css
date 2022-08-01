@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family: 'Uchen', serif;
+    background-color: rgb(178, 184, 232);
+}
+
+header{
+    background-color:rgb(72, 27, 114);
+    padding: 15px;
+    color: rgb(186, 206, 213);
+    text-align: justify;
+}
+
+main{
+    padding: 30px 50px;
+}
+
+.card{
+    background-color:  rgb(186, 206, 213);
+    border: 2px solid rgb(72, 27, 114);
+    border-radius: 20px;
+    padding: 5px 20px;
+    margin-top: 10px;
+}
+
+.lineinput{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+input{
+    padding: 10px;
+    border: 1px solid rgb(72, 27, 114);
+    border-radius: 4px;
+    outline: 0;
+}
+
+button{
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 4px;
+    padding: 5px;
+    outline: 0;
+    background-color: rgb(72, 27, 114);
+    color: rgb(200, 200, 200);
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: rgb(141, 48, 229);
+}
+
+.context{
+    margin-top: 10px;
+}
+
+table{
+    border-collapse: collapse;
+    border: 1px solid rgb(72, 27, 114);
+    width: 100%;
+}
+
+table th{
+    background-color: rgb(186, 206, 213); 
+}
+
+table th, td{
+    padding: 1px 5px;
+}
+
+table td img{
+    width: 20px;
+}
+
+.center{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+
